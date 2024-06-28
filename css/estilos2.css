@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+.container #nav {
+    background-image: url(../images/cinta.png);
+    height: 180px;
+}
+.col-8.d-flex.justify-content-center.align-items-center .nav.justify-content-center li {
+    margin-top: 0;
+    margin-right: 15px;
+    margin-left: 41px;
+    margin-bottom: 0;
+	font-size: 16px;
+}
+.row .col .img-fluid {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#footer {
+    width: auto;
+    height: 157px;
+    background-color: #1B31D5;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-image: url(../images/cinta.png);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#footer #text1,
+#footer #text2 {
+    font-family: Arial;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+#footer #text1 {
+    flex: 1;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#footer #text2 {
+    flex: 1;
+    text-align: right;
+    margin-top: 30px;
+}
+
+#footer #iconos {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer #iconos img {
+    margin: 0 15px;
+}
+#conten .row .col-5 {
+    margin-top: 53px;
+    margin-bottom: 47px;
+}
+.row .col-5 .text-responsive {
+	color: #084FA6;
+}
+.breadcrumb {
+    background-color: transparent;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 11px;
+    margin-top: -38px;
+    margin-right: 21px;
+    margin-left: 21px;
+    margin-bottom: -22px;
+}

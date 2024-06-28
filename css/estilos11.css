@@ -1,0 +1,101 @@
+@charset "utf-8";
+.col-8.d-flex.justify-content-center.align-items-center .nav.justify-content-center li {
+    margin-right: 15px;
+    margin-left: 41px;
+    margin-bottom: 0;
+    font-size: 16px;
+	
+}
+.container #nav {
+    background-image: url(../images/cinta.png);
+    height: 180px;
+}
+
+#footer {
+    height: 157px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-image: url(../images/cinta.png);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: auto;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#footer #text1,
+#footer #text2 {
+    font-family: Arial;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+#footer #text1 {
+    flex: 1;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#footer #text2 {
+    flex: 1;
+    text-align: right;
+    margin-top: 30px;
+}
+
+#footer #iconos {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer #iconos img {
+    margin: 0 15px;
+}
+.col.image-container .overlay-text.responsive-text h3 {
+    color: #084FA6;
+    margin-bottom: 18px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 11px;
+    margin-right: 21px;
+    margin-left: 21px;
+    margin-top: -38px;
+}
+.row .col-sm-6 .text-center {
+    margin-top: 12px;
+	color:#084FA6;
+	font-size: 15px;
+}
+.row .col-8 .img-responsive.align-items-center {
+    margin-bottom: 31px;
+}
+#conten .row .col-8.d-flex.justify-content-center {
+    margin-bottom: 42px;
+    margin-right: -1px;
+    margin-top: -21px;
+    padding-top: 2px;
+}
+
+.row .col-8.d-flex.justify-content-center .img-responsive {
+    margin-top: 77px;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen{
+}
+
+@media screen{
+}
